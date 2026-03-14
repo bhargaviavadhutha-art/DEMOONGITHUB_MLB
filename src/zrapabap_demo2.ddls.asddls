@@ -4,6 +4,7 @@
 @Metadata.ignorePropagatedAnnotations: true
 define view entity ZRAPABAP_DEMO2 as select from /dmo/travel
 {
+" This are fields from Travel table
     key travel_id as TravelId,
     agency_id as AgencyId,
     customer_id as CustomerId,
